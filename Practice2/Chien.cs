@@ -12,7 +12,6 @@ public class Chien {
   public string getNom() {
     return this.nom;
   }
-
   public void setNiche(Niche n) {
     this.niche = n;
   }
