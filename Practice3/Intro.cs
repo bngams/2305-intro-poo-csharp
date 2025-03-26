@@ -30,3 +30,8 @@ foreach (int n in numbersBis)
     Console.WriteLine(n);
   }
 }
+
+
+
+// créer un tableau de nombres
+int[] numeros = new int[5];

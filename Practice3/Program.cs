@@ -16,7 +16,7 @@ public class Program {
     animaux[3].EstAdopte = true;
 
     // Affichage des détails des animaux
-    foreach (Animal animal in animaux)
+    foreach (Animal animal in animaux) 
     {
       Console.WriteLine(animal.SePresenter());
       if(animal.EstAdopte)
@@ -50,6 +50,6 @@ public class Program {
     {
       Console.WriteLine(animal.SePresenter());
     }
-    
+
   }
 }
